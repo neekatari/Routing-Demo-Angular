@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Routing-Demo"
+    }
+  },
+  "defaultProject": "Routing-Demo",
+  "cli": {
+    "analytics": "1ce83661-3871-4a26-acbc-f7d763a8af1d"
+  }
 }
